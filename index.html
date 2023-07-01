@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson39task3</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <label>
+                <input type="checkbox" id="bold" name="bold" value="bold">
+                Bold
+            </label>
+            <label>
+                <input type="checkbox" id="underline" name="underline" value="underline">
+                Underline
+            </label>
+            <label>
+                <input type="checkbox" id="italics" name="italics" value="italics">
+                Italics
+            </label>
+            <label>
+                <input type="radio" name="place" value="left" checked>
+                Left
+            </label>
+            <label>
+                <input type="radio" name="place" value="right">
+                Right
+            </label>
+            <label>
+                <input type="radio" name="place" value="center">
+                Justify
+            </label>
+            <textarea name="area" id="area"></textarea>
+            <button>Показать текст</button>
+        </form>
+        <div class="result">
+            <p>Result:</p>
+            <p class="result-item"></p>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

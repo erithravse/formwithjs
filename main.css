@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 50px 100px;
+    width: 500px;
+    height: 400px;
+    background: #aca9a9;
+}
+input[type="checkbox"]{
+    margin: 20px 0;
+}
+textarea{
+    width: 450px;
+    height: 250px;
+}
+form{
+    padding: 10px 25px;
+}
+label{
+    padding: 0 8px;
+}
+.result{
+    padding: 10px;
+    font-size: 20px;
+    width: 500px;
+    height: 200px;
+    background: #e39b9b;
+}
+.result-item{
+    padding: 10px;
+    font-size: 36px;
+    color: rgb(33, 61, 244);
+    border: 1px solid gray;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
